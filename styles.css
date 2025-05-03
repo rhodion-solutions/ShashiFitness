@@ -2053,6 +2053,7 @@ body.dark-mode .cs-logo {
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
   #contact {
+    scroll-margin-top: 100px;
     padding: 20px;
     overflow: hidden;
     position: relative;
@@ -2245,6 +2246,7 @@ body.dark-mode .cs-logo {
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
   #contact {
+    scroll-margin-top: 150px;
     flex:1;
   }
   #contact .cs-container {
@@ -2294,6 +2296,7 @@ body.dark-mode .cs-logo {
 /* Largest Desktop - 1920px */
 @media only screen and (min-width: 120rem) {
   #contact {
+    scroll-margin-top: 150px;
     padding-top: 7vw;
     padding-bottom: 9vw;
   }
@@ -2301,6 +2304,7 @@ body.dark-mode .cs-logo {
     margin: 0 auto;
     transform: translateX(-22rem);
   }
+  
 }
 /* Dark Mode */
 @media only screen and (min-width: 0rem) {
